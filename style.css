@@ -1,0 +1,128 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+/* .redborder{
+
+    border:2px solid red;
+}
+.greenborder{
+
+    border:2px solid green;
+}
+.yellowborder{
+
+    border:2px solid yellow;
+}
+.blackborder{
+
+    border:5px solid black;
+} */
+.mainheight{
+
+    min-height: 100vh;
+}
+.secondheight{
+
+    min-height: 60vh;
+}
+.nav-link {
+
+    font-family: raleway;
+}
+.navbar-brand {
+
+
+    margin-left: 73px;
+}
+.head-first{
+
+    font-size: 80px;
+    width: 80%;
+    /* position: absolute; */
+    font-family: raleway;
+}
+.left-third p{
+
+    width: 100%;
+    z-index: 111;
+}
+.head-third{
+
+    font-size: 70px;
+    width: 100%;
+    z-index: 1;
+    /* position: absolute; */
+    font-family: raleway;
+}
+.image-third {
+    animation:loop 2s linear infinite ;
+}
+.image-first{
+
+
+    animation:loop 2s linear infinite ;
+}
+@keyframes loop {
+    0% {
+
+        transform: translateY(10px);
+    }
+    50% {
+
+        transform: translateY(0px);
+    }
+    100% {
+
+        transform: translateY(10px);
+    }
+}
+.upper-card {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-sc h4{
+
+    font-family: raleway;
+    color: gray;
+}
+.card-sc h2{
+
+    font-family: raleway;
+}
+.success {
+
+    width: 240px;
+    height: 250px;
+    background-color: #5423e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 111;
+    bottom: 2%;
+    left: 0;
+    border-radius: 20px;
+}
+.success h1 {
+
+    font-size: 50px;
+    color: white;
+    font-family: raleway;
+}
+.success p {
+    font-size: 20px;
+    width: 50%;
+    color: white;
+    font-family: raleway;
+    text-align: center;
+}
